@@ -264,6 +264,303 @@ print("Type of x:")
 print(type(x))
 print("Value of X:")
 print(x)
+print("*********************************************Indexing*****************************************")
+print("x='ranga'")
+x='ranga'
+print("Type of x:")
+print(type(x))
+print("Value of X[2]:")
+print(x[2])
+print("********************34*************************")
+print("x='ranga'")
+x='ranga'
+print("Type of x:")
+print(type(x))
+print("Value of X[-1]:")
+print(x[-1])
+print("*********************************************slice Operator*****************************************")
+print("Form -1")
+print("x(begin:end)")
+print("x='ranga'")
+x='ranga'
+print("x[1:4]")
+print(x[1:4])
+print("********************36*************************")
+print("Form -1")
+print("x(begin:end)")
+print("x='ranga'")
+x='ranga'
+print("x[-4:-1]")
+print(x[-4:-1])
+print("********************37*************************")
+print("Form -1")
+print("x(begin:end)")
+print("x='ranga'")
+x='ranga'
+print("x[1:]")
+print(x[1:])
+print("********************38*************************")
+print("Form -1")
+print("x(begin:end)")
+print("x='ranga'")
+x='ranga'
+print("x[:4]")
+print(x[:4])
+print("********************39*************************")
+print("Form -1")
+print("x(begin:end)")
+print("x='ranga'")
+x='ranga'
+print("x[:]")
+print(x[:])
+print("********************40*************************")
+print("Form -2")
+print("x(begin:end:step)")
+print("x='rangarao'")
+x='rangarao'
+print("x[1:4:2]")
+print(x[1:4:2])
+print("********************len()*************************")
+print("len()")
+print("x='rangarao'")
+x='rangarao'
+print("len(x)")
+print(len(x))
+print("********************42*************************")
+print(" * ")
+print("x='rangarao'")
+x='rangarao'
+print("x*3")
+print(x*3)
+print("********************Type Casting*************************")
+print("One Data TYpe to Another Data Type")
+print("int()")
+print("x=123.45")
+x=123.45
+print("int(x)")
+print(int(x))
+print("********************44*************************")
+print("int()")
+print("x=10+20J")
+x=10+20J
+print("int(x)")
+#print(int(x))        #TYpe Error
+print("********************45*************************")
+print("int()")
+print("x=True")
+x=True
+print("int(x)")
+print(int(x))
+print("********************46*************************")
+print("int()")
+print("x=False")
+x=False
+print("int(x)")
+print(int(x))
+print("********************47*************************")
+print("int()")
+print("x='10'")
+x='10'
+print("int(x)")
+print(int(x))
+print("********************48*************************")
+print("int()")
+print("x='10.5'")
+x='10.5'
+print("int(x)")
+#print(int(x))   #Value Error
+print("********************49*************************")
+print("float()")
+print("x='10'")
+x='10'
+print("float(x)")
+print(float(x))
+print("********************50*************************")
+print("float()")
+print("x='10+20J'")
+x='10+20J'
+print("float(x)")
+#print(float(x))  # Value Error
+print("********************51*************************")
+print("float()")
+print("x=True")
+x=True
+print("float(x)")
+print(float(x))
+print("********************52*************************")
+print("float()")
+print("x=False")
+x=False
+print("float(x)")
+print(float(x))
+print("********************53*************************")
+print("float()")
+print("x='10'")
+x='10'
+print("float(x)")
+print(float(x))
+print("********************54*************************")
+print("float()")
+print("x='10.5'")
+x='10.5'
+print("float(x)")
+print(float(x))
+print("********************55*************************")
+print("float()")
+print("x='ten'")
+x='ten'
+print("float(x)")
+#print(float(x)) #Value Error
+print("********************56*************************")
+print("complex() - form 1: complex(x)")
+print("x=10")
+x=10
+print("complex(x)")
+print(complex(x)) 
+print("********************57*************************")
+print("complex() - form 1: complex(x)")
+print("x=10.5")
+x=10.5
+print("complex(x)")
+print(complex(x)) 
+print("********************58*************************")
+print("complex() - form 1: complex(x)")
+print("x=True")
+x=True
+print("complex(x)")
+print(complex(x)) 
+print("********************59*************************")
+print("complex() - form 1: complex(x)")
+print("x=False")
+x=False
+print("complex(x)")
+print(complex(x)) 
+print("********************60*************************")
+print("complex() - form 1: complex(x)")
+print("x='10'")
+x='10'
+print("complex(x)")
+print(complex(x)) 
+print("********************61*************************")
+print("complex() - form 1: complex(x)")
+print("x='10.5'")
+x='10.5'
+print("complex(x)")
+print(complex(x)) 
+print("********************62*************************")
+print("complex() - form 1: complex(x)")
+print("x='ten'")
+x='ten'
+print("complex(x)")
+#print(complex(x))    # Value Error
+print("********************63*************************")
+print("complex() - form 2: complex(x,y)")
+print("x=10, y=20")
+x=10
+y=20
+print("complex(x,y)")
+print(complex(x,y))
+print("********************64*************************")
+print("complex() - form 2: complex(x,y)")
+print("x=10.5, y=20.5")
+x=10.5
+y=20.5
+print("complex(x,y)")
+print(complex(x,y))
+print("********************65*************************")
+print("complex() - form 2: complex(x,y)")
+print("x=True, y=False")
+x=True
+y=False
+print("complex(x,y)")
+print(complex(x,y))
+print("********************66*************************")
+print("complex() - form 2: complex(x,y)")
+print("x='10', y='20'")
+x='10'
+y='20'
+print("complex(x,y)")
+#print(complex(x,y))      #Type Error
+print("********************66*************************")
+print("bool()")
+print("x=10")
+x=10
+print("bool(x)")
+print(bool(x))
+print("********************67*************************")
+print("bool()")
+print("x=10.25")
+x=10.25
+print("bool(x)")
+print(bool(x))
+print("********************68*************************")
+print("bool()")
+print("x=10+20J")
+x=10+20J
+print("bool(x)")
+print(bool(x))
+print("********************69*************************")
+print("bool()")
+print("x='10'")
+x='10'
+print("bool(x)")
+print(bool(x))
+print("********************70*************************")
+print("bool()")
+print("x=10.28")
+x='10.28'
+print("bool(x)")
+print(bool(x))
+print("********************71*************************")
+print("str()")
+print("x=10")
+x=10
+print("str(x)")
+print(str(x))
+print("********************72*************************")
+print("str()")
+print("x=10.5")
+x=10.5
+print("str(x)")
+print(str(x))
+print("********************73*************************")
+print("str()")
+print("x=True")
+x=True
+print("str(x)")
+print(str(x))
+print("********************74*************************")
+print("str()")
+print("x=10+20J")
+x=10+20J
+print("str(x)")
+print(str(x))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
